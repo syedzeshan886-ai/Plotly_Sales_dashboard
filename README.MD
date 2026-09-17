@@ -8,7 +8,7 @@
 The dashboard is deployed on Railway and is available online.
 
 ![](Untitled.png)
-
+![](Untitled2.png)
 ## 🚀 Installation & Setup
 
 ### 🐍 1. Python Requirement
