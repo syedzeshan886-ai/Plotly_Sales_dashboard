@@ -31,23 +31,12 @@ layout = html.Div([
                            ),
                     html.Div([
                         html.A(href='https://github.com/syedzeshan886-ai', target='_blank',
-                               children=[html.Img(src='/assets/github.png', height="30px",
-                                                  style={"margin-top": '15px',
-                                                         'margin-left': '15px',
-                                                         'margin-bottom': '15px'})]),
+                               children=[html.Img(src='/assets/github.png', height="30px")]),
                         html.A(href='https://community.plotly.com', target='_blank',
-                               children=[html.Img(src='/assets/plotly.ico', height="30px",
-                                                  style={"margin-top": '20px',
-                                                         'margin-left': '15px',
-                                                         'margin-bottom': '15px',
-                                                         "background-color": "#35384b"})]),
+                               children=[html.Img(src='/assets/plotly.ico', height="30px")]),
                         html.A(href='https://www.linkedin.com/in/bukhari886', target='_blank',
-                               children=[html.Img(src='/assets/linkedin.png', height="30px",
-                                                  style={"margin-top": '20px',
-                                                         'margin-left': '15px',
-                                                         'margin-bottom': '15px',
-                                                         "background-color": "#35384b"})]),
-                    ])
+                               children=[html.Img(src='/assets/linkedin.png', height="30px")]),
+                    ], className='about_social_links')
                 ], className='first_text_column'),
                 html.Div([
                     html.Img(src='/assets/programmer.gif', className='gif_image')

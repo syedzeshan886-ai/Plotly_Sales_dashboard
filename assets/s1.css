@@ -431,18 +431,24 @@ there.
 /* Larger than phablet (also point when grid becomes active) */
 @media (max-width: 550px) {
 .home_row {
-  margin-left: 12rem !important;
-  margin-right: 5rem !important;
+  margin-left: 26rem !important;
+  margin-right: 2rem !important;
+  width: calc(100% - 28rem) !important;
+  max-width: calc(100% - 28rem) !important;
 }
 
 .about_row {
-  margin-left: 12rem !important;
-  margin-right: 10rem !important;
+  margin-left: 26rem !important;
+  margin-right: 2rem !important;
+  width: calc(100% - 28rem) !important;
+  max-width: calc(100% - 28rem) !important;
 }
 
 .table_row {
-  margin-left: 12rem !important;
-  margin-right: 5rem !important;
+  margin-left: 26rem !important;
+  margin-right: 2rem !important;
+  width: calc(100% - 28rem) !important;
+  max-width: calc(100% - 28rem) !important;
 }
 
 .title_and_drop_down_list {
