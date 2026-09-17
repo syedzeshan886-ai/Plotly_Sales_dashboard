@@ -4,6 +4,78 @@
 
 ![](Untitled.png)
 
+## 🚀 Installation & Setup
+
+### 🐍 1. Python Requirement
+
+This project requires:
+
+> **Python 3.10**
+
+Make sure Python 3.10 is installed and available in your environment.
+
+---
+
+### 📦 2. Install Poetry
+
+Open your terminal in the project directory and run:
+
+```bash
+pip install poetry
+```
+
+Verify the installation:
+
+```bash
+poetry --version
+```
+
+---
+
+### 🔧 3. Install Project Dependencies
+
+You can install the dependencies using Poetry:
+
+```bash
+poetry install
+```
+
+This will install the packages defined in `pyproject.toml` and use the existing `poetry.lock` file when available.
+
+### 🔒 Or, Update/Regenerate the Lock File
+
+If you need to regenerate the dependency lock file:
+
+```bash
+poetry lock
+```
+
+Then install the dependencies:
+
+```bash
+poetry install
+```
+
+---
+
+### ▶️ 4. Run the Application
+
+After the installation is complete, activate the Poetry environment:
+
+```bash
+poetry shell
+```
+
+Then run the application:
+
+```bash
+python index.py
+```
+
+> **💡 Tip:** Using `poetry install` is recommended when a `poetry.lock` file is already included in the project, as it helps ensure everyone uses the same dependency versions.
+
+
+
 ## Run with Docker
 
 ```bash
