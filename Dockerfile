@@ -20,4 +20,4 @@ COPY assets ./assets
 
 EXPOSE 8050
 
-CMD ["gunicorn", "--bind", "0.0.0.0:8050", "--workers", "2", "--threads", "4", "index:server"]
+CMD ["sh", "-c", "gunicorn --bind 0.0.0.0:${PORT:-8050} --workers 2 --threads 4 index:server"]

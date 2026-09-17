@@ -10,11 +10,16 @@ layout = html.Div([
                     html.H3('Syed Zeshan Bukhari', style={"color": "#0084d6",
                                                  'margin-left': '15px',
                                                  'margin-top': '15px'}),
-                    html.P('Data scientist with 1+ years experience in building data-intensive applications in Python '
-                           'programming, overcoming complex challenges, proficient in predictive data'
-                           ' modeling, processing, visualizing, dashboards, and extracting actionable insights from '
-                           'data.',
-                           style={"color": "#ffffff",
+                    html.P(
+                        'Data Scientist with a comprehensive skill set that seamlessly '
+                        'combines the roles of Data Engineer and Data Analyst. Seven years '
+                        'of work experience with RDX, Lyftron Data, Civil Aviation '
+                        'Authority, and National Highway Authority. Knowledge of data '
+                        'warehouses and business intelligence tools. Always eager to find '
+                        'solutions by thinking out of the box. Has designed and developed '
+                        'complex data pipelines, ETL workflows, and dashboards that enable '
+                        'organizations to effectively manage and leverage their data.',
+                        style={"color": "#ffffff",
                                   "font-size": "15px",
                                   'margin-left': '15px',
                                   'margin-right': '15px',
