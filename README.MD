@@ -4,6 +4,7 @@
 ## 🚀 Live Dashboard
 
 👉 **[View Live Sales Dashboard](https://plotlysalesdashboard-production.up.railway.app/)**
+👉 **[View Live Sales Dashboard](https://plotly-sales-dashboard-eta.vercel.app/)**
 
 The dashboard is deployed on Railway and is available online.
 
