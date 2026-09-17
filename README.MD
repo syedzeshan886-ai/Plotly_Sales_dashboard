@@ -1,6 +1,11 @@
-# Plotly_Sales_dashboard
 
-### KPI sales dashboard in Python by Plotly Dash
+## Plotly Sales Dashboard
+
+## 🚀 Live Dashboard
+
+👉 **[View Live Sales Dashboard](https://plotlysalesdashboard-production.up.railway.app/)**
+
+The dashboard is deployed on Railway and is available online.
 
 ![](Untitled.png)
 
