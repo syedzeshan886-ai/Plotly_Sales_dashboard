@@ -28,7 +28,7 @@ app.layout = html.Div([
                     dbc.NavLink([html.Div([
                         html.I(className="fa-solid fa-house"),
                         html.Span("Home", style={'margin-top': '3px'})], className='icon_title')],
-                        href="/",
+                        href="/apps/home",
                         active="exact",
                         className="pe-3"
                     ),
@@ -68,10 +68,10 @@ app.layout = html.Div([
 @app.callback(Output('page-content', 'children'),
               [Input('url', 'pathname')])
 def display_page(pathname):
-    if pathname == '/':
-        return home.layout
-    elif pathname == '/apps/dashboard':
+    if pathname in ('/', '/apps/dashboard'):
         return dashboard.layout
+    elif pathname == '/apps/home':
+        return home.layout
     elif pathname == '/apps/data':
         return data.layout
     elif pathname == '/apps/about':
